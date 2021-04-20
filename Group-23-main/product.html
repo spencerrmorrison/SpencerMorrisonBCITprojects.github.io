@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Product</title>
+    <meta name="comp1800 boilerplate code" content="my bcit project">
+    <meta name="author" content="BCIT">
+
+    <!-- Bootstrap for Mobile-first, and JQuery -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/26da0e4274.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- Optional styles and scripts of your own -->
+    <link rel="stylesheet" href="styles/styleBase.css">
+    <link rel="stylesheet" href="styles/styleCategory.css">
+
+</head>
+
+<body>
+
+    <!-------------------------------------->
+    <!-- The following is HTML for layout -->
+    <!-------------------------------------->
+    <!-- Header Navigation Bar -->
+    <nav class="navbarTop navbar-dark bg-dark">
+        <a class="leftIcon" href="productlist.html"><svg width="2em" height="2em" viewBox="0 0 16 16"
+                class="bi2 bi-arrow-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg ">
+                <path fill-rule="evenodd"
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z" />
+            </svg></a>
+
+        <a class="navbar-brand">
+            <path fill-rule="evenodd"
+                d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z" />
+            <path
+                d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z" />
+            <path fill-rule="evenodd"
+                d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z" />
+            </svg>
+            <div class="title mb-0 h1">Products</div>
+        </a>
+
+        <a class="right-icon" href="login.html" id="loginLink"><img src="images/login.png" alt="login"
+                class="icon2"></a>
+    </nav>
+
+    <div class="content2">
+        <div id="productpicture">
+            <img src="images/samsunggalaxys10black.jpg" alt="Samsung Galaxy" class="img-thumbnail">
+        </div>
+
+        <div id="productdescription">
+            <h2>Samsung Galaxy S10 128G</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Color Option :</th>
+                        <td>Prism Black, Prism White</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">The Best Price : </th>
+                        <td>$599.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Rate :</th>
+                        <td><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i id="ratestar" class="fas fa-star"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+        <form action="">
+            <button type="button" class="btn btn-primary"
+                id="compare1">Compare
+                Price</button>
+        </form>
+
+        <div id="productdetail">
+            <h3>Product Review</h3>
+            <p>The Galaxy S10 is a fitting 10th anniversary phone for Samsung and its storied S series. It delivers on
+                change with a novel-looking Infinity-O screen so large it displaces the front camera, and a triple-lens
+                rear camera that takes ultra-wide photos. Its in-screen fingerprint sensor tech should serve you well,
+                while its Wireless PowerShare could serve your friends well. That’s a lot of change – just know that it
+                comes at a high price and the Galaxy S10e and S10 Plus flank it from both sides of the coin as better
+                options.</p>
+
+            <p>Weight: 157g</p>
+            <p>Dimensions: 149.9 x 70.4 x 7.8mm</p>
+            <p> OS: Android 9</p>
+            <p>Screen size: 6.1-inch</p>
+            <p>Resolution: QHD+</p>
+            <p>CPU: Octa-core chipset</p>
+            <p>RAM: 8GB</p>
+            <p>Storage: 128</p>
+            <p>Battery: 3,400mAh</p>
+
+            <h3>Camera</h3>
+            <p>Rear Camera - F Number (Multiple) F1.5/F2.4 (Dual Aperture), F2.2 & OIS</p>
+            <P>Front Camera – Resolution 10.0 MP</P>
+            <p> Front Camera - F Number F1.9</p>
+            <h3>Battery</h3>
+            <p>The Samsung Galaxy S10 packs in a 3,400mAh battery, an upgrade over the 3,000mAh capacity of the Galaxy
+                S9.However, because of the increase in screen size, Samsung is still quoting the same "all-day" battery
+                life for the S10 as it did for its predecessor, and we found this to be true.</p>
+
+            <p>We regularly got to the end of day with around 20% left in the tank, with our usage including a couple
+                of hours of Spotify streaming, another two hours of video, a range of social messaging, an hour or two
+                of gaming and a smattering of emails, web browsing and camera use throughout the day.</p>
+
+            <p> With more reserved use, it’s possible to get a day and a half from the Galaxy S10 before you have to
+                considering finding a charger.</p>
+
+            <P>Running the TechRadar battery test, where we play a 90 minute full HD video with the screen at full
+                brightness and accounts syncing over Wi-Fi in the background, the Galaxy S10 lost just 11%.</P>
+
+            <p>That’s the same result as the iPhone XS, and a marked improvement over the Galaxy S9 which dropped 17%
+                in the same test. It means you’ll be able to knock back a couple of movies on the S10 and still have
+                plenty of juice left in the tank.</p>
+
+            <p>The Galaxy S10 supports wireless charging, like the previous generation, but Samsung has added a new
+                feature here too. It’s called Wireless PowerShare and allows you to use the Galaxy S10 as a wireless
+                charging mat for your other wirelessly charging devices.
+            </p>
+
+            <h3>Reasons to Buy it</h3>
+            <p>If you are looking for a phone that is an upgrade from the S9 or the Apple flagship devices, then the
+                Samsung Galaxy S10e does not disappoint as it offers premium quality for manageable cost. The S10e is a
+                flat display unlike the S10 and S10+ but some people may prefer the feel as it is sturdier in the hand
+                and doesn’t lead to false input on the touch screen.</p>
+
+        </div>
+    </div>
+
+    <!-- Bottom Nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a calss="navbar-brand" href="#">
+            <a class="icon" href="index.html">
+                <svg width="30" height="30" viewBox="0 0 16 16" class="icon" fill="white"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    <path fill-rule="evenodd"
+                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                </svg>
+            </a>
+            <a class="icon" href="shoppinglist.html" id="loginLink"><img src="images/list.png" alt="list"
+                    class="icon3"></a>
+            <a class="icon" href="category.html">
+                <svg width="30" height="30" viewBox="0 0 16 16" class="icon3" fill="white"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z" />
+                    <path
+                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z" />
+                    <path fill-rule="evenodd"
+                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z" />
+                </svg>
+            </a>
+            <a class="icon" href="accountInfo.html">
+                <svg width="30" height="30" viewBox="0 0 16 16" class="icon" fill="white"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                    <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    <path fill-rule="evenodd"
+                        d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                </svg>
+            </a>
+        </a>
+    </nav>
+
+
+    <!----------------------------------------------->
+    <!-- JS: Boostrap, Firebase, API related    -->
+    <!----------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- Firebase libraries from CDN -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+
+    <!--------------------------------------------------------------------->
+    <!-- JS files: Your own JavaScript functions included here    -->
+    <!--------------------------------------------------------------------->
+    <script src="scripts/firebase_api_team23.js"> </script>
+    <script src="scripts/saveCateogry.js"> </script>
+
+</body>
+
+</html>

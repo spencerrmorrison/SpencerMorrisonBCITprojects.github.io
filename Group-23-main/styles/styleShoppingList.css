@@ -1,0 +1,102 @@
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3466AA;
+  border-color: #3466AA;
+}
+
+.card-title {
+  color: #2379b6;
+}
+
+.card-text {
+  color: #77c3fa;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(255, 231, 196, 0.125);
+  border-radius: 0.25rem;
+}
+
+.input-group-prepend {
+  height: 30px;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color:white;
+  border-bottom: 1px solid black;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #114084;
+  color: white;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: #114084 !important;
+  color: #114084;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 38px 1fr 1fr;
+}
+
+.price {
+  margin-left: 10px;
+  height: 15px;
+}
+
+.location-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.enterLoc {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  width: 90%;
+}
+
+#go{
+  margin-left: 50px;
+}

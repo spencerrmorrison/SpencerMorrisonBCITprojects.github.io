@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>node.js fun</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a href="target_blank">alo</a>
+        <a href="target_blank">Home</a>
+        <a href="target_blank">About</a>
+        <a href="target_blank">Menu</a>
+        <a href="target_blank">Contact Us</a>
+    </div>
+    
+    <div id="content">
+        <!-- server content to go here -->
+    </div>
+
+    <div id="theh1">
+        <h1>Food Like <span id='h1span'>You've Never</span> Tasted</h1>
+    </div>
+
+    <div id="belowh1">
+        <a id="menu" href="">See Menu</a>
+        <a id="reserve" href="">Book Now</a>
+    </div>
+
+    <div id="bottomHalf">
+
+        <div id="profile">
+            <img src=../img/patrickKriss.jpg>
+        </div>
+
+        <div id="bio">
+            <p>Patrick Kriss envisioned this fabulous idea for this restaurant which is the most
+                amazing idea I think anyone could have. <a id='down'>More</a>
+        </div>
+
+        <div id="slid">
+            <p>From the kanpachi crudo and its vadouvan-like
+                whisper of curry brightened with mango and lemon verbena through to the roast saddle of venison
+                with chestnuts and white chocolate, my last meal at Alo was easily one of the best I have eaten
+                there. And while chef de cuisine Nick Bentley deserves much of the credit, responsibility ultimately
+                lies with his mentor and overseer, chef Kriss, who approves each dish and makes sure it arrives at the
+                table exactly as he wants it. So, for maintaining his dedication to delicious, exquisite perfection,
+                and never once resting on his laurels, Patrick Kriss is once again named our Outstanding Chef of the Year.
+                <a id='up'>Less</a>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/client.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $("#slid").hide();
+            $("#down").click(function() {
+                $("#slid").show();
+                $("#bio").css({
+                    "padding-bottom": "0%"
+                });
+                $("#profile img").css({
+                    "margin-top": "5%"
+                })
+            });
+
+            $("#down").click(function() {
+                $("#down").hide();
+            });
+
+            $("#up").click(function() {
+                $("#slid").hide();
+                $("#bio").css({
+                    "padding-bottom": "2%"
+                })
+                $("#profile img").css({
+                    "margin-top": "-1%"
+                })
+            });
+
+            $("#up").click(function() {
+                $("#down").show();
+            });
+        });
+
+    </script>
+</body>
+
+</html>

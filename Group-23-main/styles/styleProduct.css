@@ -1,0 +1,139 @@
+.productInfo {
+    display: grid;
+    grid-template-rows: 350px 200px; 
+    width: 100%;
+    height: 100%;
+}
+
+.priceList {
+    grid-row: 3/4;
+    width: 100%;
+    height: 90vh;
+    background-color: gainsboro;
+    display: grid;
+    grid-auto-rows: 75px;
+}
+
+.productProfile {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.image {
+    grid-row: 4/7;
+    grid-column: 1/2;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+ 
+}
+
+.description {
+    grid-column: 2/3;
+    grid-row: 4/6;
+    margin-top: 90px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.name {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin-top: 5%;
+}
+
+.price {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 3px 3px -3px gray, 0 -3px 3px -3px gray;
+    background-color: gainsboro;
+}
+
+.price>p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.table {
+    margin-top: 150px;
+}
+
+.btn-info {
+    background-color: #3466AA;
+    border: none;
+    margin-top: -3px;
+}
+
+.btn-info:hover {
+    background-color: #114084;
+}
+
+.btn-info:active {
+    background-color: #114084 !important;
+}
+
+#image {
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .priceList {
+        grid-row: 2/3;
+        width: 100%;
+        height: 90vh;
+        background-color: gainsboro;
+        display: grid;
+        grid-auto-rows: 75px;
+    }
+    
+    .image {
+        grid-row: 2/3;
+        width: 150px;
+        height: 150px;
+        background-color: gainsboro;
+        margin-left: 20px;
+        margin-top: 8%;
+    }
+    
+    .price>p {
+        margin-left: 10px;
+        margin-top: 17px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .description {
+        margin: 0 auto;
+        padding: 20px;
+        grid-row: 3/8;
+        grid-column: 1/5;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .name {
+        grid-column: 1/5;
+        grid-row: 1/2;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .table {
+        margin-top: 0px;
+    }
+  }
+
+  #add {
+      margin: 0 auto;
+      margin-top: 115px;
+      height: 50px;
+      width: 150px;
+      grid-column: 2/5;
+  }

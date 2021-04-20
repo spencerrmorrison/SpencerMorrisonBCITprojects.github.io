@@ -1,0 +1,153 @@
+#Category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#electronicpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title mb-0 h1 {
+    color: white;
+}
+
+#Category button {
+    border-style: solid;
+    border-color: rgb(134, 123, 123);
+    border-radius: 1em;
+    border-width: 2px;
+
+}
+
+@media (max-width: 575.98px) {
+    #Category {
+        grid-template-columns: 1fr;
+    }
+
+    #electronicpage {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #Category {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #electronicpage {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    #Category {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #electronicpage {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        display: grid;
+        grid-template-areas:
+            "productpicture productdescription"
+            "productdetail productdetail";
+    }
+
+    #productpicture {
+        grid-area: productpicture;
+    }
+
+    #productdescription {
+        grid-area: productdescription;
+    }
+
+    #productdetail {
+        grid-area: productdetail;
+    }
+
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(241, 233, 233);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3466aa;
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff9601;
+    border-color: #0062cc;
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+#pricecomparesion {
+    text-align: center;
+}
+
+#producticon {
+    margin-top: 20px;
+}
+
+#productdetail {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h3 {
+    font-weight: 800;
+    color: #114084;
+
+}
+
+#productlist {
+    text-align: center;
+}
+
+.w-100 {
+    margin-top: 10px;
+}
+
+.row {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.col {
+    padding: 0px;
+}
+
+button {
+    color: white;
+}
+
+#cart {
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 30px;
+}
